@@ -63,8 +63,10 @@ public class ListReclamationForm extends Form {
             // categories = myService.parseCategories();
             categories = myService.getAllCategories();
         }
+        
+        
         malek = this;
-        setTitle("les Reclamations");
+        setTitle("les Reclamations ");
         setLayout(BoxLayout.y());
 
         Toolbar.setGlobalToolbar(true);
