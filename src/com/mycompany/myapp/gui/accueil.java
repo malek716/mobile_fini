@@ -37,14 +37,16 @@ public class accueil extends Form{
         Button fournisseur = new Button("Gestion Fournisseurs ");
                 
         Button Commande2 = new Button("Gestion Commande ");
+        Button liv = new Button("Gestion des livraisons");
 
 
         
        reclamation.addActionListener(e->new ListReclamationForm(accueill).show());
        fournisseur.addActionListener(e-> new Homefournisseur(accueill).show());
        Commande2.addActionListener(e->new commandeaff2(accueill).show());
+       liv.addActionListener(e->new livraff(accueill).show());
         
-        addAll(reclamation,fournisseur,Commande2);
+        addAll(reclamation,fournisseur,Commande2,liv);
 
              
         Button btnClose = new Button("Quiter");
