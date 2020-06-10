@@ -6,22 +6,15 @@
 package com.mycompany.myapp.gui;
 
 import com.codename1.charts.util.ColorUtil;
-import com.codename1.components.MultiButton;
 import com.codename1.components.SpanLabel;
 import com.codename1.ui.Container;
 import com.codename1.ui.Display;
-import com.codename1.ui.Font;
 import com.codename1.ui.FontImage;
 import com.codename1.ui.Form;
 import com.codename1.ui.Label;
-import com.codename1.ui.Toolbar;
 import com.codename1.ui.layouts.BorderLayout;
-import com.codename1.ui.layouts.BoxLayout;
-import com.codename1.ui.plaf.Border;
 import com.codename1.ui.table.TableLayout;
 import com.mycompany.entities.societe;
-import com.mycompany.myapp.services.ServiceFournisseur;
-import java.util.ArrayList;
 
 /**
  *

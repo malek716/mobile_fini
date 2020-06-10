@@ -145,7 +145,7 @@ Form me ;
                     if ( s.equals("\"success\"")) {
                     Dialog.show("Confirmation", "Reclamation ajoutée avec succés", "Ok", null);
                   
-                    Mail m = new Mail();
+                 //   Mail m = new Mail();
                     // previous.showBack();
                     ListReclamationForm l = new ListReclamationForm(me);
                     l.show();
