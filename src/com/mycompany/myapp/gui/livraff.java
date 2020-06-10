@@ -60,6 +60,10 @@ public class livraff extends Form{
                 FontImage searchIcon = FontImage.createMaterial(FontImage.MATERIAL_SEARCH, s);
               int m =  list.size();
         Label lnom = new Label("Societe");
+        
+        
+        
+        
      lnom.setText("Nombre des livraison : "+m);
      accueilf.add(lnom);
          if (list.isEmpty()) {
